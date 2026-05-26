@@ -692,7 +692,7 @@ for ($i=0; $i < 20; $i++) {
   <h2>මෙම වෙබ් පිටුව ජංගම දුරකතන තිරයෙන් නැරබීමට නොහැකිය.</h2>
 </div>
 
-<audio id="audio" src="songs/audio_1.mp3"></audio>
+<audio id="audio" src="songs/audio_1.mp3" loop></audio>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript">
