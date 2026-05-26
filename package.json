@@ -1,0 +1,26 @@
+{
+  "name": "javascript-vesak-thorana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "set ELECTRON_RUN_AS_NODE=& electron .",
+    "package": "electron-packager . --platform=win32 --arch=x64 --out=dist/ --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thil4n/javascript-vesak-thorana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thil4n/javascript-vesak-thorana/issues"
+  },
+  "homepage": "https://github.com/thil4n/javascript-vesak-thorana#readme",
+  "devDependencies": {
+    "electron": "^42.2.0",
+    "electron-packager": "^17.1.2"
+  }
+}
